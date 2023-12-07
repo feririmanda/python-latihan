@@ -1,2 +1,9 @@
 #untuk melihat package yang terinstall di python:
 pip install
+
+#cara running program python di vscode
+1. install extension Python IntelliSense (Pylance)
+2. di file python 
+   - tekan f5 (running program dengan debug)
+   - tekan ctrl + f5 (running program tanpa debug)
+3. Selamat, anda berhasil mambangun program pertama anda   
