@@ -29,6 +29,14 @@ while True:
                     output = round(float(input_value) * 0.6214, 2)
                     output_string = f'{input_value} km adalah {output} miles'
                     window['-OUTPUT-'].update(output_string)
+                case 'kg ke lbs':
+                    output = round(float(input_value) * 2.20462, 2)
+                    output_string = f'{input_value} kg adalah {output} lbs'
+                    window['-OUTPUT-'].update(output_string)
+                case 'detik ke menit':
+                    output = round(float(input_value) / 60, 2)
+                    output_string = f'{input_value} detik adalah {output} menit'
+                    window['-OUTPUT-'].update(output_string)
         else:
             window['-OUTPUT-'].update('Anda harus memasukkan angka')
 
